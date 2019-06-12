@@ -46,3 +46,79 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* CSS RESET FINISH  */
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 180px 200vh 100vh 100vh 50vh 150vh; 
+	grid-row-gap: 3vh;
+}
+
+
+/* setup grid */
+.box-1{
+	grid-row: 1;
+	grid-column: 1/4;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-2{
+	margin-top: -3vh;
+	grid-row: 2;
+	grid-column: 1/4;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-3{
+	grid-row: 3;
+	grid-column: 1;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-4{
+	grid-row: 3;
+	grid-column: 2;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-5{
+	grid-row: 3;
+	grid-column: 3;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-6{
+	grid-row: 4;
+	grid-column: 1;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-7{
+	grid-row: 4;
+	grid-column: 2/4;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-8 {
+	grid-row: 5;
+	grid-column: 1/4;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-9 {
+	grid-row: 6;
+	grid-column: 1/4;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+/* setup grid end */
