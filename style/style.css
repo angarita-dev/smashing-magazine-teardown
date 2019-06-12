@@ -52,7 +52,7 @@ table {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: 180px 200vh 100vh 100vh 50vh 150vh; 
+	grid-template-rows: 180px 200vh 100vh 100vh 50vh 150vh 100vh; 
 	grid-row-gap: 3vh;
 }
 
@@ -117,6 +117,13 @@ table {
 
 .box-9 {
 	grid-row: 6;
+	grid-column: 1/4;
+	background-color: hsla(270, 40%, 60%, 0.2);
+	border: 1px solid black;
+}
+
+.box-10 {
+	grid-row: 7;
 	grid-column: 1/4;
 	background-color: hsla(270, 40%, 60%, 0.2);
 	border: 1px solid black;
