@@ -59,10 +59,26 @@ table {
 
 /* setup grid */
 .box-1{
+	display: grid;
+	grid-template-columns: repeat(7, 1fr); 
 	grid-row: 1;
 	grid-column: 1/4;
-	background-color: hsla(270, 40%, 60%, 0.2);
-	border: 1px solid black;
+	background-color: #4d4d4d;
+}
+
+#nav-logo {
+	background: url(../img/logo--full.svg) 100% no-repeat;
+}
+
+#nav {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 }
 
 .box-2{
@@ -192,7 +208,3 @@ h4 > span{
 	text-align: center;
 	color: #fff;
 }
-
-
-               
-            
