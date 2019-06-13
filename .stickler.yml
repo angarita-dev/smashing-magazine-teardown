@@ -1,4 +1,6 @@
-stylelint:
-  fixer: 'true'
-csslint:
-  ignore: 'order-alphabetical, box-model'
+linters:
+  csslint:
+  ignore: 'order-alphabetical,box-model'
+files:
+  ignore:
+    - 'bower_components/*'
