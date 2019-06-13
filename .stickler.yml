@@ -1,6 +1,0 @@
----
-linters:
-  stylelint:
-    fixer: 'true'
-  csslint:
-    ignore: 'order-alphabetical,box-model'
