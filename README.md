@@ -9,7 +9,7 @@ This is the second project of the Main HTML/CSS curriculum at [Microverse](https
 #### [View in broswer](https://raw.githack.com/codingAngarita/smashing-magazine-teardown/developement/index.html)
 
 #### Live ScreenShot of the page
-![ScreenShot](../img/full-page-pic.png)
+![ScreenShot](/img/full-page-pic.png)
 
 
 #### Authors
