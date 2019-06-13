@@ -1,5 +1,6 @@
 linters:
-  csslint: {  }
+  csslint:
+  ignore: 'order-alphabetical,box-model'
 files:
   ignore:
     - 'bower_components/*'
